@@ -17,6 +17,6 @@ The principal of this modules just like the crawler_mubannet module , it will lo
 
 The **lich_va_su_kien_crawler.py** is different from the other modules , because when clicking to go to next page of the category "lich va su kien " , the URL do not change . So this module use **selenium** library to simulate the click action 
 
-**Note : If you using Firefox as the selenium driver , you must download the [Caption](https://github.com/mozilla/geckodriver/releases) , extract it and copy the driver to /usr/local/bin and finally make it executable (chmod +x geckodriver)**
+**Note : If you using Firefox as the selenium driver , you must download the [geckodriver](https://github.com/mozilla/geckodriver/releases) , extract it and copy the driver to /usr/local/bin and finally make it executable (chmod +x geckodriver)**
 
 
